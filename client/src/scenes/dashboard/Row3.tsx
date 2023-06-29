@@ -1,3 +1,4 @@
+// cspell: ignore Kpis
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";
