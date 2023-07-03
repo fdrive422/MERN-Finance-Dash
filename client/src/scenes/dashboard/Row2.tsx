@@ -134,7 +134,6 @@ const Row2 = () => {
               dataKey="value"
             >
               {pieData.map((_entry, index) => (
-              // {pieData.map((entry, index) => (
                 <Cell key={`cell-${index}`} fill={pieColors[index]} />
               ))}
             </Pie>

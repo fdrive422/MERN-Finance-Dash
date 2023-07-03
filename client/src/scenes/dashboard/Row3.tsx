@@ -18,7 +18,7 @@ const Row3 = () => {
   const { data: kpiData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
   const { data: transactionData } = useGetTransactionsQuery();
-  console.log("transactionData:", transactionData)
+  console.log("transactionData:", transactionData);
 
   const pieChartData = useMemo(() => {
     if (kpiData) {
@@ -198,11 +198,12 @@ const Row3 = () => {
             width="40%"
           ></Box>
         </Box>
-        <Typography margin="0 1rem" variant="h6">
-          Orci aliquam enim vel diam. Venenatis euismod id donec mus lorem etiam
-          ullamcorper odio sed. Ipsum non sed gravida etiam urna egestas
-          molestie volutpat et. Malesuada quis pretium aliquet lacinia ornare
-          sed. In volutpat nullam at est id cum pulvinar nunc.
+        <Typography margin="0 1rem" variant="h5">
+          Over the past year, our company has seen a steady increase in profits.
+          We have achieved this through a combination of cost-cutting measures,
+          increased sales, and improved efficiency. Our profits have grown by an
+          average of 10% each quarter, and we are confident that this trend will
+          continue in the future.
         </Typography>
       </DashboardBox>
     </>
